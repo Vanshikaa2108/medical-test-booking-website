@@ -1,0 +1,120 @@
+ 
+
+  .login-page {
+    /* margin-top: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Main container */
+  .login-container {
+    margin-top: 20px;
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 900px; /* Adjust width as needed */
+    max-width: 90%;
+  }
+  
+  /* Left side - Image */
+  .login-image {
+    flex: 1;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Right side - Login form */
+  .login-form {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: purple;
+  }
+  
+  /* Form group */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid purple;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+  }
+  
+  .form-group input:focus {
+    border-color: #c300ff;
+  }
+  
+  /* Login button */
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: purple;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: rgb(88, 2, 88);
+  }
+  
+  /* Message styling */
+  .message {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #ff0000; /* Red color for error messages */
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .login-container {
+      flex-direction: column;
+    }
+  
+    .login-image {
+      display: none; /* Hide image on smaller screens */
+    }
+  
+    .login-form {
+      padding: 20px;
+    }
+  } 
+  .register-link{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #000000;
+  }
+    .register-link a{
+        color: purple;
+        text-decoration: none;
+    }

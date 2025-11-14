@@ -1,0 +1,135 @@
+/* Reset */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Container */
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* Logo */
+.logo img {
+  height: 50px;
+  width: auto;
+}
+
+/* Navigation Menu (Desktop) */
+.navbar-menu {
+  display: flex;
+}
+
+.navbar-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-menu ul li {
+  display: inline-block;
+}
+
+.navbar-menu ul li a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-menu ul li a:hover {
+  color: #64106f;
+}
+
+/* Contact Button */
+.contact-btn a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #82368C;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.contact-btn a:hover {
+  background-color: #6a1775;
+}
+
+/* Hamburger Menu (Hidden in Desktop) */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.hamburger .bar {
+  width: 30px;
+  height: 3px;
+  background-color: #333;
+  transition: 0.3s;
+}
+
+/* Animation for Open State */
+.hamburger .bar.open:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger .bar.open:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger .bar.open:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 95px;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+  }
+
+  .navbar-menu.open {
+    display: flex;
+  }
+
+  .navbar-menu ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navbar-menu ul li {
+    text-align: center;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}

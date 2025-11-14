@@ -1,0 +1,137 @@
+
+  /* Main container */
+  .register-container {
+    margin-left:18% ;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    background-color: #A847B3;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 1000px; /* Adjust width as needed */
+    max-width: 90%;
+  }
+  
+  /* Left side - Image */
+  .register-image {
+    flex: 1;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .register-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Right side - Registration form */
+  .register-form {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .register-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  /* Form group */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #fff;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+  }
+  
+  .form-group input:focus {
+    border-color: #007bff;
+  }
+  
+  /* OTP button */
+  .otp-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .otp-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Submit button */
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .submit-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Login link */
+  .login-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #fff;
+  }
+  
+  .login-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .register-container {
+      flex-direction: column;
+    }
+  
+    .register-image {
+      display: none; /* Hide image on smaller screens */
+    }
+  
+    .register-form {
+      padding: 20px;
+    }
+  } 
