@@ -1,74 +1,58 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# 🏥 AI-Powered Diagnostic Laboratory Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack **AI-integrated diagnostic laboratory platform** that allows users to upload medical reports and receive **clear, user-friendly health insights**.  
+Built using modern web technologies with a secure, scalable backend and an intuitive frontend interface.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+### 🔹 AI-Based Report Analysis
+- Upload medical reports securely
+- AI analyzes reports and generates simplified health insights
+- Easy-to-understand summaries for non-technical users
 
-### `yarn start`
+### 🔹 Secure Authentication & Authorization
+- JWT-based authentication
+- Role-based access control for users and administrators
+- Secure session handling and protected routes
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🔹 User-Friendly Interface
+- Clean and intuitive UI for seamless navigation
+- Smooth report upload experience
+- Visual representation of health trends and summaries
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🔹 Admin Capabilities
+- Manage users and uploaded reports
+- Monitor system activity securely
+- Restricted admin-only operations
 
-### `yarn test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tech Stack
 
-### `yarn build`
+| Technology | Usage |
+|---------|------|
+| **HTML5** | Structure of the web pages |
+| **CSS3** | Styling and responsive design |
+| **JavaScript** | Frontend and backend logic |
+| **React.js** | Frontend user interface |
+| **Node.js** | Backend runtime environment |
+| **Express.js** | Server-side framework |
+| **MongoDB** | Database for user and report data |
+| **JWT** | Authentication & authorization |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📂 Key Functionalities
+- Secure user registration and login
+- Medical report upload and processing
+- AI-driven report interpretation
+- Role-based dashboard access
+- Data visualization for health trends
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `yarn eject`
+## 🎯 Objective
+To create a **secure, intelligent diagnostic platform** that bridges the gap between complex medical reports and user understanding through AI-driven insights.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# medical-test-booking-website
->>>>>>> e611d8548ed583bdd0bdb54e6e5a14d20aaab6ad
